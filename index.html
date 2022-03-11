@@ -47,32 +47,38 @@
 
     <!-- Encabezado de la página -->
     <header>
+        
+        <!-- Barra de navegación dinámica y responsible con aplicación de hamburguesa en dispositivos menores -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light container-fluid navbarspecifications">
 
-            <a class="navbar-brand fs-1 text-white" href="#">Viajes Chile</a>
+            <div class="container">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <a class="navbar-brand fs-1 d-inline-block text-white align-text-top" href="#"><img
+                        src="assets/img/viajes.svg" width="28" height="28" alt="logo">Viajes Chile</a>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <!-- definir lista desordenada -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link active text-white" aria-current="page" href="#home_vcl">Inicio</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="#whoarewe_vcl">Quienes Somos</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="#highlights_vcl">Destacados</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="#contact_vcl">Contacto</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <!-- definir lista desordenada -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link active text-white" aria-current="page" href="#home_vcl">Inicio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#whoarewe_vcl">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#highlights_vcl">Destacados</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#contact_vcl">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -108,17 +114,17 @@
     <!-- Sección de elementos de presentación de Viajes Chile -->
     <section class="container-fluid vcpresentation py-5 d-none d-sm-block" id="whoarewe_vcl">
 
-        <div class="row gy-3 col-sm mx-auto h-100" style="padding-left: 2rem; padding-right: 2rem;">
+        <div class="row gy-3 col-sm mx-auto h-100" style="padding-left: 8rem; padding-right: 8rem;">
 
             <div class="container-fluid text-center col-12">¿Quienes Somos?</div>
 
             <hr
-                style="margin-left: 5%; width: 90%;height: 5px;text-align: left;border: 5px;border-radius: 5px; background-color:#17A2B8;">
+                style="height: 5px;text-align: left;border: 5px;border-radius: 5px; background-color:#17A2B8; opacity:1">
 
+            
             <div class="container-fluid col-4 about-text">
-                <i class="container-fluid text-center fa-solid fa-plane" data-toggle="tooltip"
-                    data-placement="top" title="Viajes aéreos"
-                    style="font-size:xx-large; background-color: #17A2B8;"></i>
+                <i class="container-fluid text-center fa-solid fa-plane" data-toggle="tooltip" data-placement="top"
+                    title="Viajes aéreos" style="font-size:xx-large; background-color: #17A2B8;"></i>
                 <br>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aliquid minus vel modi quae est odio
                 fuga eos voluptas optio esse aut, velit, perspiciatis, fugiat nulla quia rem excepturi repellendus!
@@ -146,9 +152,8 @@
                 molestiae enim error incidunt alias ex, quae magnam? Ea, exercitationem pariatur eius laboriosam natus
                 officia saepe dolorem?
 
-                <i class="container-fluid text-center fa-solid fa-mountain" data-toggle="tooltip"
-                    data-placement="top" title="Cordilleras y Montañas"
-                    style="font-size:xx-large; background-color: #17A2B8;"></i>
+                <i class="container-fluid text-center fa-solid fa-mountain" data-toggle="tooltip" data-placement="top"
+                    title="Cordilleras y Montañas" style="font-size:xx-large; background-color: #17A2B8;"></i>
 
             </div>
             <div class="container-fluid col-4 about-text">
@@ -176,11 +181,11 @@
 
     </section>
 
-    <section class="container-fluid vchighlights py-5" id="highlights_vcl">
+    <section class="container-fluid vchighlights py-5" style="padding-left: 10rem; padding-right: 10rem;" id=highlights_vcl">
 
         <p>Destacados</p>
         <hr
-            style="margin-left: 5%; width: 90%;height: 5px;text-align: left;border: 5px;border-radius: 5px; background-color:#17A2B8;">
+            style="margin-left: 0%; width: 100%;height: 5px;text-align: left;border: 5px;border-radius: 5px; background-color:#17A2B8; opacity: 1;">
 
         <div class="row" style="padding-left: 2rem; padding-right: 2rem;">
             <div class="col-sm">
@@ -246,25 +251,41 @@
     </section>
 
 
-    <section id="contact_vcl">
+    <section class="container-fluid vchighlights py-5"  style="padding-left: 10rem; padding-right: 10rem;" id="contact_vcl">
+
+        <p>Contacto</p>
+        
+        <hr
+            style="margin-left: 0%; width: 100%;height: 5px;text-align: left;border: 5px;border-radius: 5px; background-color:#17A2B8; opacity: 1;">
+            
 
         <div data-tf-widget="Rg8NFKDS" data-tf-iframe-props="title=Viajes Chile" data-tf-medium="snippet"
-            style="width:100%;height:400px;"></div>
+            style="width:100%;height:50rem;padding-left: 2rem; padding-right: 2rem;"></div>
         <script src="//embed.typeform.com/next/embed.js"></script>
 
     </section>
-    <footer>
-        <div class="container-fluid text-center text-white">
 
-            <ul class="list-inline">
-                <li class="list-inline-item">Viajes Chile</li>
-                <li class="list-inline-item fa-brands fa-github-square"></li>
-                <li class="list-inline-item fa-brands fa-linkedin"></li>
-                <li class="list-inline-item fa-brands fa-twitter-square"></li>
-                <li class="list-inline-item fa-brands fa-facebook-square"></li>
-            </ul>
-        </div>
-    </footer>
+    <section  class="container-fluid text-white" style="background-color:#17A2B8; opacity: 1;">
+        <footer>
+            <div class="row align-items-center">
+                <div class="col">
+                    <p style="text-align: center;">Viajes Chile</p>
+                </div>
+                <div class="col">
+                    <ul class="list-inline" style="text-align: center;">
+                        <li class="list-inline-item fa-brands fa-github-square data-toggle="tooltip" data-placement="top"
+                        title="Colaboremos en GitHub"></li>
+                        <li class="list-inline-item fa-brands fa-linkedin data-toggle="tooltip" data-placement="top"
+                        title="Trabajemos desde LinkedIn"></li>
+                        <li class="list-inline-item fa-brands fa-twitter-square data-toggle="tooltip" data-placement="top"
+                        title="Comentemos en Twitter"></li>
+                        <li class="list-inline-item fa-brands fa-facebook-square data-toggle="tooltip" data-placement="top"
+                        title="Siguenos en Facebook"></li>
+                    </ul>
+                </div>
+              </div>
+        </footer>
+    </section>
 
     <!-- Enlace a Fichero BootStrap 5.1.3 Bundle-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
