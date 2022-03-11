@@ -1,0 +1,71 @@
+
+.navbarspecifications {
+
+    /* Color de fondo RGB (46, 160, 171) convertido a HEX en https://www.rgbtohex.net/
+    background-color: #2EA0AB */
+    /* background-color: transparent !important atributo !important establece tomar el valor transparent por sobre cualquier otro background-color definido para la clase que se encuentre al mismo nivel de .header */
+
+    color:#FFFFFF;
+    font-size: 18px;
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+
+body {
+
+    /* Establece márgenes y bordes cero para trabajar sólo con padding */
+    margin: 0;
+    border: 0;
+    /* Alineación centrada por defecto */
+    text-align: center;
+    /* Color de letras #FFFFFF por defecto */
+    color: #FFFFFF;
+    /* Familia de letras desde Google Fonts por defecto */
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+.vcpresentation {
+
+    /* Class para elementos de la presentación de la página */
+    background-color: #000000;
+    font-size: large;
+    color:#FFFFFF;
+}
+
+
+.vchighlights {
+
+    /* Class para elementos de la sección de Destacados de la página */
+    background-color: #000000;
+    font-size:xx-large;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.card-text {
+
+    font-size: small;
+
+}
+
+.card-title {
+
+    font-size: medium;
+}
+
+footer {
+
+    /* Class para elementos del pie de página */
+    font-size: xxx-large;
+    background-color: #17A2B8;
+}
+
+.icons-section {
+
+    font-size: 24px;
+    width: 100%;
+    padding: 20px;
+    
+  }
