@@ -26,10 +26,25 @@ body {
 
     /* Class para elementos de la presentación de la página */
     background-color: #000000;
-    font-size: large;
+    font-size: xx-large;
+    text-align: center;
     color:#FFFFFF;
 }
 
+.about-text {
+
+    /* Class para descriptores de la presentación */
+    font-size: medium;
+
+}
+
+-header-icons {
+    
+    /* Class para íconos de sección de presentación */
+    font-size:xx-large;
+    background-color: #17A2B8;
+
+}
 
 .vchighlights {
 
@@ -42,13 +57,13 @@ body {
 
 .card-text {
 
-    font-size: small;
+    font-size: medium;
 
 }
 
 .card-title {
 
-    font-size: medium;
+    font-size: large;
 }
 
 footer {
