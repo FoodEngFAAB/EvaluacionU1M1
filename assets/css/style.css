@@ -29,6 +29,9 @@ body {
     font-size: xx-large;
     text-align: justify;
     color:#FFFFFF;
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 5rem;
+    padding-right: 10rem;
 }
 
 .about-text {
@@ -38,12 +41,12 @@ body {
 
 }
 
--header-icons {
+.header-icons {
     
     /* Class para íconos de sección de presentación */
     font-size:xx-large;
     background-color: #17A2B8;
-
+    font-family: 'Playfair Display SC', serif;
 }
 
 .vchighlights {
@@ -53,6 +56,8 @@ body {
     font-size: xx-large;
     text-align: center;
     color:#FFFFFF;
+    font-family: 'Playfair Display SC', serif;
+
 }
 
 .card-text {
@@ -72,6 +77,8 @@ footer {
     /* Class para elementos del pie de página */
     font-size: xxx-large;
     background-color: #17A2B8;
+    font-family: 'Playfair Display SC', serif;
+    
 }
 
 .icons-section {
