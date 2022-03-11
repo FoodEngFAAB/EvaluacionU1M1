@@ -1,13 +1,9 @@
 
 .navbarspecifications {
 
-    /* Color de fondo RGB (46, 160, 171) convertido a HEX en https://www.rgbtohex.net/
-    background-color: #2EA0AB */
-    /* background-color: transparent !important atributo !important establece tomar el valor transparent por sobre cualquier otro background-color definido para la clase que se encuentre al mismo nivel de .header */
-
-    color:#FFFFFF;
     font-size: 18px;
     font-family: 'Playfair Display SC', serif;
+    color:#FFFFFF;
 
 }
 
@@ -39,7 +35,7 @@ body {
 
     /* Class para elementos de la sección de Destacados de la página */
     background-color: #000000;
-    font-size:xx-large;
+    font-size: xx-large;
     text-align: center;
     color:#FFFFFF;
 }
