@@ -27,7 +27,7 @@ body {
     /* Class para elementos de la presentación de la página */
     background-color: #000000;
     font-size: xx-large;
-    text-align: center;
+    text-align: justify;
     color:#FFFFFF;
 }
 
@@ -58,6 +58,7 @@ body {
 .card-text {
 
     font-size: medium;
+    text-align: justify;
 
 }
 
