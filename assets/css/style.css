@@ -29,12 +29,15 @@ body {
     font-size: xx-large;
     text-align: justify;
     color:#FFFFFF;
+    font-family: 'Playfair Display SC', serif;
 }
 
 .about-text {
 
     /* Class para descriptores de la presentación */
     font-size: medium;
+    font-family: 'Playfair Display SC', serif;
+
 
 }
 
@@ -43,6 +46,8 @@ body {
     /* Class para íconos de sección de presentación */
     font-size:xx-large;
     background-color: #17A2B8;
+    font-family: 'Playfair Display SC', serif;
+
 
 }
 
@@ -53,18 +58,24 @@ body {
     font-size: xx-large;
     text-align: center;
     color:#FFFFFF;
+    font-family: 'Playfair Display SC', serif;
+
 }
 
 .card-text {
 
     font-size: medium;
     text-align: justify;
+    font-family: 'Playfair Display SC', serif;
+
 
 }
 
 .card-title {
 
     font-size: large;
+    font-family: 'Playfair Display SC', serif;
+
 }
 
 footer {
@@ -72,6 +83,9 @@ footer {
     /* Class para elementos del pie de página */
     font-size: xxx-large;
     background-color: #17A2B8;
+    font-family: 'Playfair Display SC', serif;
+    color:#FFFFFF;
+
 }
 
 .icons-section {
@@ -79,5 +93,7 @@ footer {
     font-size: 24px;
     width: 100%;
     padding: 20px;
+    font-family: 'Playfair Display SC', serif;
+
     
   }
